@@ -1,0 +1,15 @@
+{
+  "name": "cljs-up",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lumo -c src cljs_up/core.cljs"
+  },
+  "author": "John Jelinek IV",
+  "license": "MIT",
+  "dependencies": {
+    "lumo-cljs": "^1.8.0-beta"
+  }
+}

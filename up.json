@@ -1,0 +1,9 @@
+{
+  "name": "app",
+  "proxy": {
+    "command": "./node_modules/lumo-cljs/bin/lumo -c src cljs_up/core.cljs"
+  },
+  "lambda": {
+    "memory": 128
+  }
+}
